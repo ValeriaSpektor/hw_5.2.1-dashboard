@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "npx cypress open",
     "cy:run": "npx cypress run",
-    "cy:run:spec:Verifier.cy.js": "npx cypress run --spec \"cypress/e2e/Verifier.cy.js\""
+    "cy:run:spec:Verifier.cy.js": "npx cypress run --spec \"cypress/e2e/Verifier.cy.js\"",
+    "cy:run:dashboard": "npx cypress run --record --key 59dc9adc-ff63-4f0b-ba5c-4e2d9b2879a5"
     },
   "keywords": [],
   "author": "",
